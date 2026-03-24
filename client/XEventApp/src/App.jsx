@@ -13,7 +13,7 @@ import { ThemeProvider } from "./context/ThemeContext";
 import Welcome from "./pages/Welcome";
 import Events from "./pages/Events";
 import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Signup from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import AdminPanel from "./pages/AdminPanel";
@@ -96,14 +96,14 @@ function App() {
                 path="/organizer"
                 element={
                   <ProtectedRoute requiredRoles={["Admin", "Organizer"]}>
-                    <OrganizerPanel/>
+                    <OrganizerPanel />
                   </ProtectedRoute>
                 }
               />
 
               {/* 404 Not Found */}
               <Route path="/404" element={<NotFound />} />
-              <Route path="*" element={<Navigate to="/404" replace/>} />
+              <Route path="*" element={<Navigate to="/404" replace />} />
             </Routes>
           </div>
         </Router>
