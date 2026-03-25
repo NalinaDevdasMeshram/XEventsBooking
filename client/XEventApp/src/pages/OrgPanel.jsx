@@ -7,7 +7,7 @@ import { eventAPI } from "../services/api";
 import toast from "react-hot-toast";
 import { FaPlus, FaEdit, FaTrash } from "react-icons/fa";
 
-const OrganizerPanel = () => {
+const OrgPanel = () => {
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showCreateModal, setShowCreateModal] = useState(false);
@@ -196,4 +196,4 @@ const OrganizerPanel = () => {
   );
 };
 
-export default OrganizerPanel;
+export default OrgPanel;

@@ -17,7 +17,7 @@ import Signup from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import AdminPanel from "./pages/AdminPanel";
-import OrganizerPanel from "./pages/OrganizerPanel";
+import OrgPanel from "./pages/OrgPanel";
 import NotFound from "./pages/NotFound";
 
 // Components (to be created)
@@ -96,7 +96,7 @@ function App() {
                 path="/organizer"
                 element={
                   <ProtectedRoute requiredRoles={["Admin", "Organizer"]}>
-                    <OrganizerPanel />
+                    <OrgPanel />
                   </ProtectedRoute>
                 }
               />
