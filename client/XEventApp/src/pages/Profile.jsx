@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import { useAuth } from "../context/AuthContext";
-import { userAPI } from "../services/api";
+import { userAPI } from "../service/api";
 import toast from "react-hot-toast";
 
 const Profile = () => {

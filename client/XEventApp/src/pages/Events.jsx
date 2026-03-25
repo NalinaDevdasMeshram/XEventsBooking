@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import EventCard from "../components/EventCard";
-import { eventAPI } from "../services/api";
+import { eventAPI } from "../service/api";
 import toast from "react-hot-toast";
 import { FaSearch } from "react-icons/fa";
 

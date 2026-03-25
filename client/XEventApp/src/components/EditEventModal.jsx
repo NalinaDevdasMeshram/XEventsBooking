@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { eventAPI } from "../services/api";
+import { eventAPI } from "../service/api";
 import toast from "react-hot-toast";
 import { FaTimes } from "react-icons/fa";
 import React from "react";

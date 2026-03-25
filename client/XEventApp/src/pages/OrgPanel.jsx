@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import CreateEventModal from "../components/CreateEventModal";
 import EditEventModal from "../components/EditEventModal";
 import EventCard from "../components/EventCard";
-import { eventAPI } from "../services/api";
+import { eventAPI } from "../service/api";
 import toast from "react-hot-toast";
 import { FaPlus, FaEdit, FaTrash } from "react-icons/fa";
 

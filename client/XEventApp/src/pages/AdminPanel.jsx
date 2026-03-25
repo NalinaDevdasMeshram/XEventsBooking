@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
-import { adminAPI } from "../services/api";
+import { adminAPI } from "../service/api";
 import toast from "react-hot-toast";
 import { FaCheck, FaTimes, FaUser, FaEnvelope } from "react-icons/fa";
 
