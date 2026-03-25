@@ -38,7 +38,7 @@ api.interceptors.response.use(
   },
 );
 
-// ==================== AUTH APIs ====================
+//==================== AUTH APIs ====================
 
 export const authAPI = {
   // Signup
@@ -60,7 +60,7 @@ export const authAPI = {
   },
 };
 
-// ==================== USER APIs ====================
+//==================== USER APIs ====================
 
 export const userAPI = {
   // Get profile
@@ -92,7 +92,7 @@ export const userAPI = {
   },
 };
 
-// ==================== ADMIN APIs ====================
+//==================== ADMIN APIs ====================
 
 export const adminAPI = {
   // Get all organizer requests
@@ -139,7 +139,7 @@ export const adminAPI = {
   },
 };
 
-// ==================== EVENT APIs ====================
+//==================== EVENT APIs ====================
 
 export const eventAPI = {
   // Get all events with filters
@@ -209,7 +209,7 @@ export const eventAPI = {
   },
 };
 
-// ==================== REGISTRATION APIs ====================
+//==================== REGISTRATION APIs ====================
 
 export const registrationAPI = {
   // Register for event
