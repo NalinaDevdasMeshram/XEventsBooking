@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import EventCard from "../components/EventCard";
 import { useAuth } from "../context/AuthContext";
-import { registrationAPI } from "../services/api";
+import { registrationAPI } from "./services/Api";
 import toast from "react-hot-toast";
 
 const Dashboard = () => {
